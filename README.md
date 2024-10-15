@@ -12,7 +12,7 @@ accounts.
 This operates like any other `kubectl` plugin ([ref](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/)).
 
 ```bash
-go install github.com/joshrwolf/kubectl-crane
+go install github.com/joshrwolf/kubectl-crane@latest
 
 # Use it
 kubectl crane --repo cgr.dev
